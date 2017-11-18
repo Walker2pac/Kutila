@@ -36,6 +36,30 @@
                     android:fitsSystemWindows="true"
                     android:scaleType="centerCrop"
                     app:layout_collapseMode="parallax" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/greetings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/greetings"
+                        android:paddingStart="75dp"
+                        android:paddingEnd="55dp"
+                        android:paddingTop="30dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/backdrop_title" />
+
+                </LinearLayout>
+
+
+
+
             </RelativeLayout>
 
             <android.support.v7.widget.Toolbar
